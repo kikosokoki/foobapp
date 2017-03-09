@@ -1,0 +1,125 @@
+body {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+    background: black ; 
+    width: 100%; 
+    height: 100%;
+}
+#contenedor {
+    height: 560px;
+    width: 1225px;
+    background-image:url(img/logo.png);
+    position: absolute;
+}
+
+#leyenda {
+    text-align: center;
+    float: right;   
+    width: 60px;
+    height: 540px;
+    font-family: sans-serif;
+    font-size: 30px;
+    word-wrap: break-word;
+    margin-right: 20px;
+    color: #FFD700;
+}
+
+
+#presentacion {
+    text-align: center;
+    background-color: firebrick;
+    height: 560px;
+    width: 150px;
+    float: left;
+    font-family: fantasy;
+    border-radius: 0px 17px 17px 0px;
+    -moz-border-radius: 0px 17px 17px 0px;
+    -webkit-border-radius: 0px 17px 17px 0px;
+    border: 0px double #000000;
+    
+}
+
+#form1 {
+    float: left;
+    width: 300px;
+    height: 240px;
+    margin-left: 350px;
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgba(88,88,88,0.5);
+    border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border: 5px solid rgba(56,56,56, .5);
+    position: relative;
+}
+
+
+#form1 input[type=text] {
+    appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    background-color: rgba(201,201,201, .8);
+    width: 200px;
+    height: 30px;
+    font-family: monospace;
+    color: #0000CD;
+    font-size: 15px;
+    margin-top: 50px;
+    
+}
+
+
+#form1 input[type=password] {
+    appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    background-color: rgba(201,201,201, .8);
+    width: 200px;
+    height: 30px;
+    font-family: monospace;
+    color: #0000CD;
+    font-size: 15px;
+}
+
+
+
+.boton {
+    margin-right: 50px;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+    text-align:center;
+    text-decoration: none;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    display:inline-block;
+    color: #ffffff;
+    background: #7F8C8D;
+    padding: 6px 30px;
+    white-space: nowrap;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background: #3498DB;
+    border: 1px solid #7FFF00;
+
+    }
+.boton:hover{
+  background: #a9caed;
+
+}
+
+
+
+
+
+
+
+
+

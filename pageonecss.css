@@ -1,0 +1,281 @@
+body { 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+    background: black ; 
+    width: 100%; 
+    height: 100%;
+    box-sizing: border-box;
+    overflow-x: auto;
+    background-image:url(img/logo.png);
+    position: absolute;
+}
+
+#menu {
+    width: 1225px;
+    display: inline-block;
+
+}
+
+h3 {
+    font-family: "lucida sans unicode", "lucida grande", sans-serif;
+    color: #ED7118;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 10px;
+    letter-spacing: 2.6pt;
+    word-spacing: 3.4pt;
+    display: inline;
+    float: left;
+    width: 800px;
+}
+
+.men {
+    display: inline-block;
+    background-color: #4B0082;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-family: "lucida sans unicode", "lucida grande", sans-serif;
+    color: #ED7118;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+     border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+        
+}
+
+#user {
+    width: 300px;
+    height: 425px;
+    margin-left: 50px;
+    margin-top: 25px;
+    display: inline-block;
+    float: left;
+    border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    background-color: rgba(88,88,88,0.5);
+    border: 5px solid rgba(56,56,56, .5);
+    position: absolute;
+    text-align: center;
+}
+
+h53 {
+    font-size: 20px;
+    color: 	#8B008B;
+}
+
+h54 {
+    font-size: 40px;
+    color: #8B008B;
+}
+
+#miniuser {
+    width: 270px;
+    height: 375px;
+    display: inline-block;
+    float: left;
+    border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    background-color: rgba(199,199,199,0.5);
+    border: 5px solid rgba(56,56,56, .5);
+    position: relative;
+    margin: 5px 5px 0px 10px;
+}
+
+#minicabecera {
+    position: relative;
+    width: 270px;
+    height: 75px;
+    border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    background-color: rgba(240,240,240,0.5);
+}
+
+#identidad {
+    width: 80px;
+    height: 75px;
+    position: relative;
+    float: left;
+    text-align: center;
+    border-radius: 20px 0px 0px 0px;
+    -moz-border-radius: 20px 0px 0px 0px;
+    -webkit-border-radius: 20px 0px 0px 0px;
+    background-color: rgba(245,245,245,0.5);
+    border-right: 3px solid rgba(56,56,56, .5);
+}
+
+#cumple {
+    width: 104px;
+    height: 40px;
+    position: relative;
+    float: left;
+    background-color: rgba(245,245,245,0.5);
+    border-bottom:  3px solid rgba(56,56,56, .5);
+    text-align: center;
+}
+
+#iconito {
+    width: 80px;
+    height: 75px;
+    text-align: center;
+    position: relative;
+    float: right;
+    border-radius: 0px 20px 0px 0px;
+    -moz-border-radius: 0px 20px 0px 0px;
+    -webkit-border-radius: 0px 20px 0px 0px;
+    background-color: rgba(245,245,245,0.5);
+    border-left:  3px solid rgba(56,56,56, .5);
+}
+
+#menuindoor {
+    position: relative;
+    background-color: rgba(245,245,245,0.5);
+    height: 215px;
+    width: 0px auto;
+    border-top: 5px solid rgba(56,56,56, .5);
+    border-bottom: 5px solid rgba(56,56,56, .5);
+}
+
+#listaindoor div {
+    height: 68px;
+    background-color: #008000;
+    list-style: none;
+    margin-top: 2.5px;
+}
+
+#listaindoor div span {
+    font-family: sans-serif;
+    color: 
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
+    position: relative;
+    top: 35%;
+    color: #FFEFD5;
+}
+
+
+#listaindoor div img {
+    background-color: white;
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+#estrellas {
+    border-radius: 0px 0px 20px 20px;
+    -moz-border-radius: 0px 0px 20px 20px;
+    -webkit-border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    background-color: rgba(250,250,250,0.5);
+    
+}
+
+#opciones {
+    width: 300px;
+    height: 425px;
+    margin-right: 50px;
+    margin-top: 25px;
+    float: right;
+     border: 5px solid rgba(56,56,56, .5);
+    border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    background-color: rgba(88,88,88,0.5);
+}
+
+#tabla {
+    margin-left: 15px;
+    margin-top: 40px;
+    margin-right: 15px;
+}
+
+
+.opc {
+    width: 300px;
+    height: 80px;
+    margin-top: 40px;
+    text-align: center;
+    color: #FFEFD5;
+    font-family: fantasy;
+    font-size: 25px;
+} 
+
+input[type=number] {
+    
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+}
+
+.okay {
+    background-color: #CFCFCF;
+    color: fuchsia;
+    height: 30px;
+    width: 35px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+    
+}
+
+.okay:hover {
+    background: dimgray;
+}
+
+#centro {
+    width: 400px;
+    height: 170px;  
+    margin-left: 450px;
+    margin-top: 110px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px; 
+}
+
+#centro input:first-child {
+    margin-left: 60px;
+}
+
+.boton {
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+    text-align:center;
+    text-decoration: none;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    display:block;
+    color: #FFEFD5; 
+    font-family: fantasy;
+    font-size: 25px;
+    background: #7F8C8D;
+    padding: 6px 20px;
+    white-space: nowrap;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 40px 50px 20px 100px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background: #3498DB;
+    border: 2px solid #000080;
+}
+
+.boton:hover {
+    background: #a9caed;
+    color: #F0E68C;
+}
