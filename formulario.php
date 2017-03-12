@@ -14,7 +14,7 @@
 		if (!isset($_POST['NOMBRE'])) : ?>
     
 <div id="contenedor">
-        <h1>REGISTRO</h1>
+        <h1 onclick="location.href='./homepage.php'">No lo tengo claro. Volver</h1>
     <div id="form">
         <div id="contenido">
                     

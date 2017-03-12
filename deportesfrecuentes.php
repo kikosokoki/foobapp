@@ -60,7 +60,7 @@
               
               echo "<tr>";
               
-              echo "<td><a href='apuntate.php'>".$obj->NOMBRE."</a></td>";
+              echo "<td><a href='crearpartido.php'>".$obj->NOMBRE."</a></td>";
               echo "<td>".$obj->IDDEPORTE."</a></td>";
              // <a href='location: opciones.php'
               

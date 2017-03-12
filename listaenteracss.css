@@ -148,3 +148,7 @@ table tr td {
 #foot {
     text-align: center;
 }
+
+a {
+    color: red;
+}

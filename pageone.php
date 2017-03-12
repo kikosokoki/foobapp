@@ -28,7 +28,7 @@
         <div class="men"><span onclick="location.href='./listaentera.php'">Eventos</span></div>
         <div class="men"><span onclick="location.href='./perfil.php'">Perfil</span></div>
         <div class="men"><span onclick="location.href='./opciones.php'">Añadir</span></div>
-        <div class="men"><span onclick="location.href='./homepage.php'">Salir</span></div>
+        <div class="men"><a href="homepage.php"><span>Salir</span></a></div>
         </div>
     </div>
         
@@ -75,7 +75,7 @@
                     ?>
                 
                 </div>
-                <div id="cumple"></div>
+                <div id="cumple">Información Deportiva</div>
                 <div id="iconito">
                    <?php
                         $iduser= $_SESSION['rol'];

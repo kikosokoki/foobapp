@@ -61,7 +61,7 @@
               
               echo "<tr>";
               
-              echo "<td><a href='apuntate.php'>".$obj->IDPISTA."</a></td>";
+              echo "<td><a href='crearpartido.php'>".$obj->IDPISTA."</a></td>";
               echo "<td>".$obj->DIRECCION."</td>";
               echo "<td>".$obj->TIPO."</td>";
               echo "<td>".$obj->INFORMACION."</td>";

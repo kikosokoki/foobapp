@@ -18,7 +18,7 @@
     <div id="contenedor">
     <div id="leyenda"><h1>FOOTAPP</h1></div>
         <div id="presentacion"><p>
-            ADVERTENCIA! <br> <br> FOOTAPP es una aplicación con la que puedes quedar con personas de tu zona para realizar deporte, puedes elegir pista, equipo... <br><br>En prinpio, la aplicación no cuenta con utilidad real, ya que se presenta como un proyecto de la asignatura IAW, por lo que los partidos, usuarios y quedadas no son reales. <br><br>
+            ADVERTENCIA! <br> <br>Para comenzar ingresa tus datos <br><br>Se te pedira un número Unico con el cuál podrán encontrarte tus amigos<br><br>En prinpio, la aplicación no cuenta con utilidad real, ya que se presenta como un proyecto de la asignatura IAW, por lo que los partidos, usuarios y quedadas no son reales. <br><br>
             Realizado en su integridad por <br> Jose Enrique Vazquez Cantero
             </p></div>
         
