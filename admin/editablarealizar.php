@@ -66,6 +66,9 @@
        
        <div id="foot"> 
            
+           
+        <input type="button" value="Agregar" class="boton" onclick="location.href='./agregarrealizar.php'"> 
+           
         <input type="button" onclick="location.href='./editadmin.php'" value="Volver" class="boton">
        </div>
        

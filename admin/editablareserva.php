@@ -41,6 +41,7 @@
               <th>FECHA</th>
               <th>PRECIO</th>
               <th>OBSERVACIONES</th>
+              <th>Editar</th>
                 
           </thead>
            
@@ -56,6 +57,8 @@
               echo "<td>".$obj->FECHA."</td>";
               echo "<td>".$obj->PRECIO."</td>";
               echo "<td>".$obj->OBSERVACIONES."</td>";
+              
+              echo "<td><form method='get'><a href='editareservadmin.php?id=$obj->IDRESERVA'>-- Editar</a></form></td>";
               
               echo "</tr>";
               

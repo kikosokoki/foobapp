@@ -39,6 +39,7 @@
               <th>NOMBRE</th>
               <th>JUGADORES</th>
               <th>CAPACIDAD</th>
+              <th>Editar</th>
                 
                 
           </thead>
@@ -53,6 +54,8 @@
               echo "<td>".$obj->NOMBRE."</td>";
               echo "<td>".$obj->JUGADORES."</td>";
               echo "<td>".$obj->CAPACIDAD."</td>";
+              
+              echo "<td><form method='get'><a href='editadeporteadmin.php?id=$obj->IDDEPORTE'>-- Editar</a></form></td>";
               
               
               

@@ -43,6 +43,7 @@
               <th>TIPOS</th>
               <th>VALORACION</th>
               <th>Eliminar</th>
+              <th>Editar</th>
                 
           </thead>
            
@@ -61,8 +62,9 @@
               echo "<td>".$obj->Valoracion."</td>";
               echo "<td><form method='get'><a href='deleteuseradmin.php?id=$obj->IDUSER'>Borrar</a></form></td>";
               
+              echo "<td><form method='get'><a href='edituseradmin.php?id=$obj->IDUSER'>Editar</a></form></td>";
               
-              echo "</tr>";
+        echo "</tr>";
               
             
               echo "</form>";

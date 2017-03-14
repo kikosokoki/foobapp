@@ -6,10 +6,11 @@ $connection = new mysqli('localhost', 'root', '1234', 'footapp');
             if ($connection->connect_error) {
              die("La conexion falló: " . $connection->connect_error);
             }
+?>
 
-var_dump($_GET);
-        $IDUSER=$_SESSION['iduser'];
-        
+<?php if (!isset($_POST["id"])) : ?>
+
+<?php      
 
         $IDPISTA=$_POST['IDPISTA'];
         $DIRECCION=$_POST['DIRECCION'];
@@ -18,8 +19,13 @@ var_dump($_GET);
         $ESTADO=$_POST['ESTADO'];
         
                     
-        $consulta="DELETE FROM pista WHERE 
-        IDPISTA='$IDPISTA'";
+        $consulta="UPDATE pista SET 
+        IDPISTA='$IDPISTA',
+        DIRECCION='$DIRECCION',
+        TIPO='$TIPO',
+        INFORMACION='$INFORMACION',
+        ESTADO='$ESTADO'
+        WHERE IDPISTA=".$_GET["id"];
             
 var_dump($consulta);
         $result = $connection->query($consulta);
@@ -31,4 +37,8 @@ var_dump($consulta);
             echo var_dump($consulta);
             header("location: editablapista.php");
         }
-        ?> 
+        ?>
+
+
+<?php else: ?>
+    <?php endif ?>

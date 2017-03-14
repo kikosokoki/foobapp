@@ -53,7 +53,7 @@
               echo "<td>".$obj->DIRECCION."</td>";
               echo "<td>".$obj->TIPO."</td>";
               echo "<td>".$obj->INFORMACION."</td>";
-              echo "<td>".$obj->ESTADO."</td>";
+              echo "<td><form method='get'><a href='updatepistadmin.php?id=$obj->IDPISTA'>".$obj->ESTADO." --Editar</a></form></td>";
               echo "</tr>";
               
               
