@@ -1,6 +1,4 @@
 <?php
-
-  //Open the session
   session_start();
 
   if (isset($_SESSION["username"])) {
@@ -23,12 +21,12 @@
 
 <body>
     <div id="contenedor">
-        <div  id="menu"><h3>FOOTAPP</h3>
+        <div  id="menu"><h35>FOOTAPP</h35>
             <div>
         <div class="men"><span onclick="location.href='./listaentera.php'">Eventos</span></div>
         <div class="men"><span onclick="location.href='./perfil.php'">Perfil</span></div>
         <div class="men"><span onclick="location.href='./opciones.php'">Añadir</span></div>
-        <div class="men"><a href="homepage.php"><span>Salir</span></a></div>
+        <div class="men"><a href="../conexion/logout.php"><span>Salir</span></a></div>
         </div>
     </div>
         
@@ -36,7 +34,7 @@
         <div id="user"><div>
             <?php
     
-   $connection = new mysqli("localhost", "root", "1234", "footapp");
+    include("./conexion/conexion.php");
           
           if ($connection->connect_errno) {
               printf("Connection failed: %s\n", $connection->connect_error);
@@ -113,7 +111,7 @@
                     </td>
                 </tr>
                 <tr  class="opc">
-                    <td><spam>ID Deporte</spam></td>
+                    <td><spam>Deporte</spam></td>
                     <td>                   
                 <?php 
 
@@ -125,13 +123,13 @@
                 ?>
             </tr>
                 <tr  class="opc">
-                    <td><spam>ID Pista</spam></td>
+                    <td><spam>Pista</spam></td>
                     <td> 
                         <?php 
 
                      echo "<form method='post' action='idpista.php'>";  
                         
-                        echo "<input type='number' name='valor1'></td><td><input type='submit' value='OK' class='okay'></td>";
+                        echo "<input type='text' name='valor1'></td><td><input type='submit' value='OK' class='okay'></td>";
                         
                     echo "</form>";
                 ?>    
@@ -140,7 +138,7 @@
                     </td>
             </tr>
                 <tr  class="opc">
-                    <td><spam>ID Reserva</spam></td>
+                    <td><spam>Numero de Reserva</spam></td>
                     <td>
                          <?php 
 
