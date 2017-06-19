@@ -42,11 +42,10 @@
 	           exit();
 	         }
         
-        $sql="SELECT * FROM reserva WHERE IDPORTE=".$_POST['valor'].";";
-     //   var_dump($sql);
-            if ($result = $connection->query("SELECT * FROM reserva WHERE IDDEPORTE=".$_POST['valor'].";")) {
+        
+            if ($result = $connection->query("SELECT reserva.*, deporte.NOMBRE FROM reserva JOIN deporte on reserva.IDDEPORTE= deporte.IDDEPORTE WHERE deporte.NOMBRE=".$_POST['valor'].";")) {
               
-            
+          
         ?>
         
         <div id="centrado">  
@@ -59,6 +58,7 @@
               <th>FECHA</th>
               <th>PRECIO</th>
               <th class="foto">OBSERVACIONES</th>
+              <th>NOMBRE</th>
                 
             
           </thead>
@@ -73,16 +73,18 @@
                 echo "<td>".$obj->FECHA."</td>";
                 echo "<td>".$obj->PRECIO."</td>";
                 echo "<td>".$obj->OBSERVACIONES."</td>";
+                echo "<td>".$obj->NOMBRE."</td>";
                 
                 
                 //suma de los click del boton/$objnumtotal
                 
                 echo "<tr>";
             }
+            } else {
+                var_dump($result); 
+                var_dump($connection);
             }
-         // $result->close();
-        unset($obj);
-          unset($connection);
+         
            
         ?>
         

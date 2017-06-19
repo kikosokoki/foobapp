@@ -119,7 +119,7 @@
 
                      echo "<form method='post' action='ideporte.php'>";  
                         
-                        echo "<input type='number' name='valor'></td><td><input type='submit' value='OK' class='okay'></td>";
+                        echo "<input type='text' name='valor'></td><td><input type='submit' value='OK' class='okay'></td>";
                         
                     echo "</form>";
                 ?>
